@@ -1,0 +1,14 @@
+---
+- name: "create google credentials path"
+  file:
+    path: '{{ google_auth_path }}'
+    state: directory
+    mode: 0755
+  when: google_auth_credentials is defined
+
+- name: "set google credentials"
+  copy:
+    content: '{{ google_auth_credentials }}'
+    dest: '{{ google_auth_path }}/application_default_credentials.json'
+    mode: 0400
+  when: google_auth_credentials is defined
