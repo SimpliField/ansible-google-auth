@@ -1,5 +1,6 @@
 galaxy_info:
   author: Sébastien Elet
+  role_name: "google-auth"
   description: Google auth
   company: SimpliField
   license: BSD
