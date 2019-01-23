@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Sébastien Elet
+  description: Google auth
+  company: SimpliField
+  license: BSD
+  min_ansible_version: 2.4
+  platforms:
+   - name: Ubuntu
+     versions:
+     - trusty
+     - xenial
+     - bionic
+  galaxy_tags:
+    - google
+    - auth
+    - stackdriver
+dependencies: []
