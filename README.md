@@ -12,6 +12,11 @@ Role Variables
 --------------
 
 ```yaml
+# JSON provided by google
+google_auth_credential: |
+  {
+    …
+  }
 ```
 
 
